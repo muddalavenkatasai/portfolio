@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li> <!-- Updated Navigation -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="hero">
+            <h1>Muddala Venkata Sai Durga</h1>
+            <p>I am a java full stack developer</p>
+            <div class="home-images">
+                <img src="./images/venkat.jpg" alt="Photo 1" class="home-img">
+            </div>
+            <br>
+            <a href="#skills" class="btn">Learn More About My Skills</a>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="skill-bar" style="width: 75%"></div>
+            </div>
+            <div class="skill">
+                <h3>Advance Java</h3>
+                <div class="skill-bar" style="width: 80%"></div>
+            </div>
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar" style="width: 90%"></div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar" style="width: 85%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section"> <!-- New Projects Section -->
+        <h2 >My Projects</h2>
+        <br>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Fake Review Preediction</h3>
+                <p>Online reviews significantly influence consumer decisions, but the rise of fake reviews poses a serious challenge to the integrity of e-commerce platforms. </p>
+                <a href="link-to-project1.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>-</h3>
+                <p>-</p>
+                <a href="link-to-project2.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Portfolio</h3>
+                <p>Create a user-frendly interactive portfolio about me . using HTML,CSS,JavaScript </p>
+                <a href="link-to-project3.com" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="bio">
+            <img src="./images/venkat2.jpg" alt="venkat" class="bio-img">
+            <div class="bio-text">
+                <p>Hi, I'm Venkata Sai Durga Muddala, a passionate java developer with good knowledge in both front-end and back-end development...</p>
+            </div>
+            <div class="about-images">
+                <img src="./images/mail.png" alt="About Photo 1" class="about-img">
+                <a href="https:muddalavenkatasai902@gmail.com" style="color: rgb(0, 0, 0); ">muddalavenkatasai902@gmail.com</a>
+
+                <img src="./images/linkedin.png" alt="About Photo 1" class="about-img">
+                <a href="https://www.linkedin.com/in/muddala-venkata-sai-b2b0a2284" style="color: rgb(0, 0, 0); ">linked in</a>
+
+                <img src="./images/phone.png" alt="About Photo 1" class="about-img">
+                <a href="tel:+917036904656" style="color: rgb(0, 0, 0); ">+91 7036904656</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required> </textarea>
+        </form>
+    </section>
+</body>
+</html>
